@@ -1,0 +1,13 @@
+20261113Z
+
+Free-piston linear generators promise many advantages for lightweight platforms, in particular drones and ultralight hybrid electric vehicles. However, small FPLGs, subject to varying environmental conditions and forces, require advanced control to ensure consistent, efficient operation. This project shall develop advanced control for a single cylinder, dual opposed-chamber 5kW continuous FPLG. Opposed chambers remove the need for non-productive gas springs or other return mechanisms; piston head positioning may be controlled both by the electromagnetic machine surrounding the cylinder (which may be operated in either generator or actuator mode, collecting or deploying work), and the combustion of fuel at each end of the cylinder. Prior to physical manufacture, a comprehensive, parametrizable digital twin apparatus will allow virtualized design, construction, and testing, especially for consistent performance under realistic motion, including up-to-6-axis acceleration, vibration, temperature warping, and other factors.
+
+Initial project roadmap
+
+1. Prepare a concise overview of the history and state of the art for small (10kW and below) FPLGs, in particular any developments employing advanced control (AI/ML, high precision feedback, etc.), and/or targeting aviation or light vehicle applications.
+
+2. Determine the design parameters (size, weight, material, etc.) necessary to model a 5 kW FPLG. Develop a mathematical model of its operation, accounting for all relevant components, mechanical and electrical, such that next state predictions, and, ideally, steady state and perturbation calculations, can be made.
+
+3. Determine what software is needed to build a digital twin for full mock-up physics simulation, acquire/build such software, and build the digital twin within it.
+
+4. Using (3) and (4), investigate the design of the FPLG under simulated real world conditions, and vary the design so as to achieve efficient, stable performance.
